@@ -33,4 +33,4 @@ Design targets: **GBW ≈ 5 MHz**, **SR ≈ 10 V/µs**, VDD = 1.8 V. The tail cu
 
 **Channel Length Modulation** — Sweeping L from 180 nm to 500 nm in 80 nm steps pushed DC gain up toward 40 dB, while the cutoff frequency barely moved. This split is explained by where each quantity comes from: ro ≈ 1/(λ·ID), and λ scales down as L increases, so ro (and hence Av = gm·ro) rises steadily with channel length. But the cutoff frequency depends on fc ≈ gm/(2πCL) — a ratio that's essentially independent of ro — so lengthening the channel buys gain "for free" without touching bandwidth. This is exactly why gain and bandwidth are treated as separable design knobs in this topology: L controls one, CL and gm control the other.
 
-## Repository Structure
+
